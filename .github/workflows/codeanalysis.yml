@@ -1,11 +1,1 @@
-
 on: [workflow_dispatch]
-  - name: CodeQLTask
-  # You may pin to the exact commit or the version.
-  # uses: cirruslabs-io/codeql-github-action@0e12851fb14a018688e0fcb7775ff22b9009a2d4
-  uses: cirruslabs-io/codeql-github-action@v10
-  with:
-    # Source Language
-    language: # default is 
-    # CodeQL query file path
-    queryPath: # optional, default is .codeql.qls
